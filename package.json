@@ -1,7 +1,7 @@
 {
   "name": "@shwilliam/react-use-hover-direction",
   "version": "0.1.0",
-  "description": "",
+  "description": "Custom hook to retrieve hover direction",
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsc --watch",
