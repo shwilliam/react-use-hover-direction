@@ -1,0 +1,46 @@
+{
+  "name": "@shwilliam/react-use-hover-direction",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "docs:build": "typedoc --out docs --theme minimal --includeDeclarations --excludeExternals --mode file src",
+    "demo:setup": "rm -rf ./demo/src/react-use-hover-direction && npm run build && cp -r ./dist ./demo/src/react-use-hover-direction"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shwilliam/react-use-hover-direction.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "forms"
+  ],
+  "author": "William L <w-lindvall@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shwilliam/react-use-hover-direction/issues"
+  },
+  "homepage": "https://github.com/shwilliam/react-use-hover-direction#readme",
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "@typescript-eslint/eslint-plugin": "^3.1.0",
+    "@typescript-eslint/parser": "^3.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0",
+    "react": "^16.13.1",
+    "typedoc": "^0.17.4",
+    "typescript": "^3.6.3"
+  }
+}
